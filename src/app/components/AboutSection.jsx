@@ -8,7 +8,7 @@ const TAB_DATA =[
         title:"Skills",
         id: "skills",
         content:(
-            <ul>
+            <ul className='list-disc pl-2'>
                 <li>Node.js</li>
                 <li>Express</li>
                 <li>PHP</li>
@@ -23,9 +23,18 @@ const TAB_DATA =[
         title:"Education",
         id: "education",
         content:(
-            <ul>
+            <ul className='list-disc pl-2'>
                 <li>DiTEC</li>
                 <li>Esoft Metro Campus</li>
+            </ul>
+        )
+    },
+    {
+        title:"Certifications",
+        id: "certifications",
+        content:(
+            <ul className='list-disc pl-2'>
+                <li>Python basics</li>
             </ul>
         )
     }
